@@ -1,7 +1,7 @@
 {
     "Create Property": {
         "scope": "json",
-        "prefix": "[Power Platform Connectors] Create Property",
+        "prefix": "ppc-prop",
 		"description": "This snippet contains the setup of a property with the 'x-ms-summary', 'description' and 'type' properties included.",
         "body": [
             "\"${1:propertyName}\": {",
@@ -13,7 +13,7 @@
     },	    
 	"Create Property (Array Reference)": {
         "scope": "json",
-        "prefix": "[Power Platform Connectors] Create Property (Array Reference)",
+        "prefix": "ppc-prop-ref-arr",
 		"description": "This snippet consists of an array with items that point to a definition.",
         "body": [
             "\"${1:propertyName}\": {",
@@ -28,7 +28,7 @@
     },
     "Create Property (Reference)": {
         "scope": "json",
-        "prefix": "[Power Platform Connectors] Create Property (Reference)",
+        "prefix": "ppc-prop-ref",
 		"description": "This snippet creates a property with a reference that points to a definition.",
         "body": [
             "\"${1:propertyName}\": {",
@@ -38,7 +38,7 @@
     },	
 	"Create Definition": {
         "scope": "json",
-        "prefix": "[Power Platform Connectors] Create Definition",
+        "prefix": "ppc-def",
 		"description": "This snippet contains the object setup for a definition.",
         "body": [
             "\"${1:definitionName}\": {",
