@@ -2,7 +2,7 @@
     "Create Property": {
         "scope": "json",
         "prefix": "ppc-prop",
-		"description": "This snippet contains the setup of a property with the 'x-ms-summary', 'description' and 'type' properties included.",
+		"description": "This snippet contains a property with the 'x-ms-summary', 'description' and 'type' properties included.",
         "body": [
             "\"${1:propertyName}\": {",
             "\t\"x-ms-summary\": \"${2:Summary}\",",
@@ -14,7 +14,7 @@
 	"Create Property (Array Reference)": {
         "scope": "json",
         "prefix": "ppc-prop-ref-arr",
-		"description": "This snippet consists of an array with items that point to a definition.",
+		"description": "This snippet contains an array with items that point to a definition.",
         "body": [
             "\"${1:propertyName}\": {",
             "\t\"x-ms-summary\": \"${2:Summary}\",",
@@ -29,7 +29,7 @@
     "Create Property (Reference)": {
         "scope": "json",
         "prefix": "ppc-prop-ref",
-		"description": "This snippet creates a property with a reference that points to a definition.",
+		"description": "This snippet contains a property with a reference that points to a definition.",
         "body": [
             "\"${1:propertyName}\": {",
             "\t\"\\$ref\": \"#/definitions/${2:definitionName}\"",
@@ -39,7 +39,7 @@
 	"Create Definition": {
         "scope": "json",
         "prefix": "ppc-def",
-		"description": "This snippet contains the object setup for a definition.",
+		"description": "This snippet contains a definition object with the first property included.",
         "body": [
             "\"${1:definitionName}\": {",
             "\t\"type\": \"object\",",
