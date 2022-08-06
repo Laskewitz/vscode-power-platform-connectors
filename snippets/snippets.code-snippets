@@ -1,0 +1,56 @@
+{
+    "Create Property": {
+        "scope": "json",
+        "prefix": "[Power Platform Connectors] Create Property",
+		"description": "This snippet contains the setup of a property with the 'x-ms-summary', 'description' and 'type' properties included.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"${4:Type}\"",
+            "}"
+        ]
+    },	    
+	"Create Property (Array Reference)": {
+        "scope": "json",
+        "prefix": "[Power Platform Connectors] Create Property (Array Reference)",
+		"description": "This snippet consists of an array with items that point to a definition.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"array\",",
+            "\t\"items\": {",
+            "\t\t\"\\$ref\": \"#/definitions/${4:definitionName}\"",
+            "\t}",
+            "}"
+        ]
+    },
+    "Create Property (Reference)": {
+        "scope": "json",
+        "prefix": "[Power Platform Connectors] Create Property (Reference)",
+		"description": "This snippet creates a property with a reference that points to a definition.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"\\$ref\": \"#/definitions/${2:definitionName}\"",
+            "}"
+        ]
+    },	
+	"Create Definition": {
+        "scope": "json",
+        "prefix": "[Power Platform Connectors] Create Definition",
+		"description": "This snippet contains the object setup for a definition.",
+        "body": [
+            "\"${1:definitionName}\": {",
+            "\t\"type\": \"object\",",
+            "\t\"properties\": {",
+            "\t\t\"${2:propertyName}\": {",
+            "\t\t\t\"x-ms-summary\": \"${3:Summary}\",",
+            "\t\t\t\"description\": \"${4:Description.}\",",
+            "\t\t\t\"type\": \"${5:Type}\"",
+            "\t\t}",
+            "\t}",
+            "}"
+        ]
+    }
+}
