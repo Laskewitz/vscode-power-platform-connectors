@@ -2,6 +2,10 @@
 
 All notable changes to the "Power Platform Connectors" VS Code extension will be documented in this file.
 
+## [0.1.0] - 2022-08-06 
+### Added
+- Added an icon for the extension.
+
 ## [0.0.1] - 2022-08-06 
 ### Added
 - This CHANGELOG file to hopefully serve as an evolving example of a
