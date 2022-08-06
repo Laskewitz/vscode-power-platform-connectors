@@ -3,11 +3,21 @@
   "displayName": "Power Platform Connectors",
   "description": "This extension will help you develop Power Platform Connectors. It will provide snippets to help you develop custom connectors more easily. The snippets will contain all the properties that you need and the samples in the snippets will adhere to best practices.",
   "version": "0.0.1",
+  "publisher": "DanielLaskewitz",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Snippets"
+  ],
+  "keywords": [
+    "Power Platform",
+    "Power Apps",
+    "Power Automate",
+    "Logic Apps",
+    "Custom Connectors",
+    "Power Platform Connectors"
   ],
   "contributes": {
     "snippets": [
