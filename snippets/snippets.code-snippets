@@ -1,16 +1,61 @@
 {
-    "Create Property": {
+    "Create Property (String)": {
         "scope": "json",
-        "prefix": "ppc-prop",
-		"description": "This snippet contains a property with the 'x-ms-summary', 'description' and 'type' properties included.",
+        "prefix": "ppc-prop-string",
+		"description": "This snippet contains a property of the type 'string' with the 'x-ms-summary', 'description' and 'type' properties included.",
         "body": [
             "\"${1:propertyName}\": {",
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
-            "\t\"type\": \"${4:Type}\"",
+            "\t\"type\": \"string\"",
             "}"
         ]
-    },	    
+    },
+    "Create Property (Double)": {
+        "scope": "json",
+        "prefix": "ppc-prop-double",
+		"description": "This snippet contains property of the type 'double' with the 'x-ms-summary', 'description' and 'type' properties included.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"double\"",
+            "}"
+        ]
+    },
+    "Create Property (Int Enum)": {
+        "scope": "json",
+        "prefix": "ppc-prop-int-enum",
+        "description": "This snippet contains property of the type 'integer' with the 'x-ms-summary', 'description', 'type', 'format' and 'enum' properties included.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"integer\",",
+            "\t\"format\": \"${4:int32}\",",
+            "\t\"enum\": [",
+            "\t\t\"${5:value1}\",",
+            "\t\t\"${6:value2}\"",
+            "\t]",
+            "}"
+        ]
+    },
+    "Create Property (String Enum)": {
+        "scope": "json",
+        "prefix": "ppc-prop-string-enum",
+        "description": "This snippet contains property of the type 'string' with the 'x-ms-summary', 'description', 'type' and 'enum' properties included.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"string\",",
+            "\t\"enum\": [",
+            "\t\t\"${4:value1}\",",
+            "\t\t\"${5:value2}\"",
+            "\t]",
+            "}"
+        ]
+    },
 	"Create Property (Array Reference)": {
         "scope": "json",
         "prefix": "ppc-prop-ref-arr",
@@ -35,7 +80,7 @@
             "\t\"\\$ref\": \"#/definitions/${2:definitionName}\"",
             "}"
         ]
-    },	
+    },
 	"Create Definition": {
         "scope": "json",
         "prefix": "ppc-def",
@@ -49,6 +94,19 @@
             "\t\t\t\"description\": \"${4:Description.}\",",
             "\t\t\t\"type\": \"${5:Type}\"",
             "\t\t}",
+            "\t}",
+            "}"
+        ]
+    },
+    "Create Response": {
+        "scope": "json",
+        "prefix": "ppc-resp",
+        "description": "This snippet contains a response object with a reference that points to a definition.",
+        "body": [
+            "\"responseCode\": {",
+            "\t\"description\": \"Description.\",",
+            "\t\"schema\": {",
+            "\t\t\"\\$ref\": \"#/definitions/responseDefinition\"",
             "\t}",
             "}"
         ]
