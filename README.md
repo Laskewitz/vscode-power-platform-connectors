@@ -14,6 +14,7 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 |---------|---------|
 | `ppc-prop-string` | This snippet contains a property of the type 'string' with the 'x-ms-summary', 'description' and 'type' properties included. |
 | `ppc-prop-string-enum` | This snippet contains a property of the type 'string' with the 'x-ms-summary', 'description', 'type' and 'enum' properties included. |
+| `ppc-prop-bool` | This snippet contains a property of the type 'boolean' with the 'x-ms-summary', 'description' and 'type' properties included. |
 | `ppc-prop-double` | This snippet contains a property of the type 'double' with the 'x-ms-summary', 'description' and 'type' properties included. |
 | `ppc-prop-int` | This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type' and 'format' properties included. |
 | `ppc-prop-int-enum` | This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type', 'format' and 'enum' properties included. |

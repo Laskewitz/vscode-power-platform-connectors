@@ -26,7 +26,19 @@
             "\t]",
             "}"
         ]
-    },    
+    },
+    "Create Property (Boolean)": {
+        "scope": "json",
+        "prefix": "ppc-prop-bool",
+		"description": "This snippet contains a property of the type 'bool' with the 'x-ms-summary', 'description' and 'type' properties included.",
+        "body": [
+            "\"${1:propertyName}\": {",
+            "\t\"x-ms-summary\": \"${2:Summary}\",",
+            "\t\"description\": \"${3:Description.}\",",
+            "\t\"type\": \"boolean\"",
+            "}"
+        ]
+    }, 
     "Create Property (Double)": {
         "scope": "json",
         "prefix": "ppc-prop-double",
@@ -48,7 +60,7 @@
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
             "\t\"type\": \"integer\",",
-            "\t\"format\": \"${4:int32}\",",
+            "\t\"format\": \"${4:int32}\"",
             "}"
         ]
     },    

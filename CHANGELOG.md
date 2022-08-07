@@ -2,6 +2,10 @@
 
 All notable changes to the "Power Platform Connectors" VS Code extension will be documented in this file.
 
+## [0.3.0] - 2022-08-07
+### Added
+- Added the 'ppc-prop-bool' property to make it easy adding a property of type 'boolean'.
+
 ## [0.2.0] - 2022-08-07
 ### Added
 - Added the 'ppc-prop-string-enum' property to make it easy adding a property of type 'string' as enum.
