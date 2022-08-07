@@ -2,7 +2,7 @@
   "name": "power-platform-connectors",
   "displayName": "Power Platform Connectors",
   "description": "This extension will help you develop Power Platform Connectors. It will provide snippets to help you develop custom connectors more easily. The snippets will contain all the properties that you need and the samples in the snippets will adhere to best practices.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "DanielLaskewitz",
   "icon": "assets/power-platform-connectors.png",
   "license": "MIT",
@@ -13,10 +13,15 @@
     "Snippets"
   ],
   "keywords": [
+    "Microsoft Power Platform",
     "Power Platform",
+    "Microsoft Power Apps",
     "Power Apps",
+    "Microsoft Power Automate",
     "Power Automate",
     "Logic Apps",
+    "Azure Logic Apps",
+    "Microsoft Logic Apps",
     "Custom Connectors",
     "Power Platform Connectors"
   ],

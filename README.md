@@ -12,10 +12,16 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 
 | Snippet | Purpose |
 |---------|---------|
-| `ppc-def` | Contains a definition object with the first property included. |
-| `ppc-prop` | Contains a property with the 'x-ms-summary', 'description' and 'type' properties included. |
-| `ppc-prop-ref` | Contains a property with a reference that points to a definition. |
-| `ppc-prop-ref-arr` | Contains an array with items that point to a definition. |
+| `ppc-prop-string` | This snippet contains a property of the type 'string' with the 'x-ms-summary', 'description' and 'type' properties included. |
+| `ppc-prop-string-enum` | This snippet contains a property of the type 'string' with the 'x-ms-summary', 'description', 'type' and 'enum' properties included. |
+| `ppc-prop-double` | This snippet contains a property of the type 'double' with the 'x-ms-summary', 'description' and 'type' properties included. |
+| `ppc-prop-int` | This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type' and 'format' properties included. |
+| `ppc-prop-int-enum` | This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type', 'format' and 'enum' properties included. |
+| `ppc-prop-ref` | This snippet contains a property with a reference that points to a definition. |
+| `ppc-prop-ref-arr` | This snippet contains an array with items that point to a definition. |
+| `ppc-def` | This snippet contains a definition object with the first property included. |
+| `ppc-resp` | This snippet contains a response object with a reference that points to a definition. |
+
 
 ## Feedback and snippet ideas
 
