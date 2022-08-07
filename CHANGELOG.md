@@ -14,7 +14,7 @@ All notable changes to the "Power Platform Connectors" VS Code extension will be
 - Changed 'ppc-prop' to 'ppc-prop-string'.
 
 ## [0.1.1] - 2022-08-06 
-### Added
+### Changed
 - Changed the icon for the extension for better readability.
 
 ## [0.1.0] - 2022-08-06 
