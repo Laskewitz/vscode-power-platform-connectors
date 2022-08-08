@@ -2,17 +2,21 @@
 
 All notable changes to the "Power Platform Connectors" VS Code extension will be documented in this file.
 
+## [0.3.1] - 2022-08-08
+### Changed
+- Added placeholders to the 'ppc-resp' snippet.
+
 ## [0.3.0] - 2022-08-07
 ### Added
-- Added the 'ppc-prop-bool' property to make it easy adding a property of type 'boolean'.
+- Added the 'ppc-prop-bool' snippet to make it easy adding a property of type 'boolean'.
 
 ## [0.2.0] - 2022-08-07
 ### Added
-- Added the 'ppc-prop-string-enum' property to make it easy adding a property of type 'string' as enum.
-- Added the 'ppc-prop-double' property to make it easy adding a property of type 'double'.
-- Added the 'ppc-prop-int' property to make it easy adding a property of type 'integer'.
-- Added the 'ppc-prop-int-enum' property to make it easy adding a property of type 'integer' as enum.
-- Added the 'ppc-resp' property to make it easy adding a response object.
+- Added the 'ppc-prop-string-enum' snippet to make it easy adding a property of type 'string' as enum.
+- Added the 'ppc-prop-double' snippet to make it easy adding a property of type 'double'.
+- Added the 'ppc-prop-int' snippet to make it easy adding a property of type 'integer'.
+- Added the 'ppc-prop-int-enum' snippet to make it easy adding a property of type 'integer' as enum.
+- Added the 'ppc-resp' snippet to make it easy adding a response object.
 
 ### Changed
 - Changed 'ppc-prop' to 'ppc-prop-string'.
