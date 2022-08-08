@@ -128,10 +128,10 @@
         "prefix": "ppc-resp",
         "description": "This snippet contains a response object with a reference that points to a definition.",
         "body": [
-            "\"responseCode\": {",
-            "\t\"description\": \"Description.\",",
+            "\"${1-responseCode}\": {",
+            "\t\"description\": \"${2-Description.}\",",
             "\t\"schema\": {",
-            "\t\t\"\\$ref\": \"#/definitions/responseDefinition\"",
+            "\t\t\"\\$ref\": \"#/definitions/${3-responseDefinition}\"",
             "\t}",
             "}"
         ]
