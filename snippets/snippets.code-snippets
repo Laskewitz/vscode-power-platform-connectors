@@ -61,7 +61,7 @@
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
             "\t\"type\": \"integer\",",
-            "\t\"format\": \"${4:int32}\"",
+            "\t\"format\": \"int32\"",
             "}"
         ]
     },    
@@ -74,10 +74,10 @@
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
             "\t\"type\": \"integer\",",
-            "\t\"format\": \"${4:int32}\",",
+            "\t\"format\": \"int32\",",
             "\t\"enum\": [",
-            "\t\t\"${5:value1}\",",
-            "\t\t\"${6:value2}\"",
+            "\t\t\"${4:value1}\",",
+            "\t\t\"${5:value2}\"",
             "\t]",
             "}"
         ]
