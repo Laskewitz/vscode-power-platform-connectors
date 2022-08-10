@@ -1,0 +1,7 @@
+{
+    "propertyName": {
+        "x-ms-summary": "Summary",
+        "description": "Description.",
+        "type": "boolean"
+    }
+}

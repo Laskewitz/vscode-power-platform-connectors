@@ -47,14 +47,14 @@
             "\"${1:propertyName}\": {",
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
-            "\t\"type\": \"number\"",
+            "\t\"type\": \"number\",",
             "\t\"format\": \"double\"",
             "}"
         ]
     },
     "Create Property (Int)": {
         "scope": "json",
-        "prefix": "ppc-prop-int",
+        "prefix": "ppc-prop-int32",
         "description": "This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type' and 'format' properties included.",
         "body": [
             "\"${1:propertyName}\": {",
@@ -67,7 +67,7 @@
     },    
     "Create Property (Int Enum)": {
         "scope": "json",
-        "prefix": "ppc-prop-int-enum",
+        "prefix": "ppc-prop-int32-enum",
         "description": "This snippet contains a property of the type 'integer' with the 'x-ms-summary', 'description', 'type', 'format' and 'enum' properties included.",
         "body": [
             "\"${1:propertyName}\": {",
@@ -129,10 +129,10 @@
         "prefix": "ppc-resp",
         "description": "This snippet contains a response object with a reference that points to a definition.",
         "body": [
-            "\"${1-responseCode}\": {",
-            "\t\"description\": \"${2-Description.}\",",
+            "\"${1:responseCode}\": {",
+            "\t\"description\": \"${2:Description.}\",",
             "\t\"schema\": {",
-            "\t\t\"\\$ref\": \"#/definitions/${3-responseDefinition}\"",
+            "\t\t\"\\$ref\": \"#/definitions/${3:responseDefinition}\"",
             "\t}",
             "}"
         ]

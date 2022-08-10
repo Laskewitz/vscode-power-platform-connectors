@@ -1,0 +1,8 @@
+{
+    "propertyName": {
+        "x-ms-summary": "Summary",
+        "description": "Description.",
+        "type": "number",
+        "format": "double"
+    }
+}

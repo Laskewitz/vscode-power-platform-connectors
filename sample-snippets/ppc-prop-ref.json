@@ -1,0 +1,5 @@
+{
+    "propertyName": {
+        "$ref": "#/definitions/definitionName"
+    }
+}

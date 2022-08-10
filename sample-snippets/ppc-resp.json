@@ -1,0 +1,8 @@
+{
+    "responseCode": {
+        "description": "Description.",
+        "schema": {
+            "$ref": "#/definitions/responseDefinition"
+        }
+    }
+}

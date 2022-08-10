@@ -1,0 +1,10 @@
+{
+    "propertyName": {
+        "x-ms-summary": "Summary",
+        "description": "Description.",
+        "type": "array",
+        "items": {
+            "$ref": "#/definitions/definitionName"
+        }
+    }
+}

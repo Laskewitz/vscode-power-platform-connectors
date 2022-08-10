@@ -1,0 +1,12 @@
+{
+    "definitionName": {
+        "type": "object",
+        "properties": {
+            "propertyName": {
+                "x-ms-summary": "Summary",
+                "description": "Description.",
+                "type": "Type"
+            }
+        }
+    }
+}

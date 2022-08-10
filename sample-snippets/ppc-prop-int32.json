@@ -1,0 +1,8 @@
+{
+    "propertyName": {
+        "x-ms-summary": "Summary",
+        "description": "Description.",
+        "type": "integer",
+        "format": "int32"
+    }
+}
