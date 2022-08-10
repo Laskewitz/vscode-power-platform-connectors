@@ -2,6 +2,10 @@
 
 All notable changes to the "Power Platform Connectors" VS Code extension will be documented in this file.
 
+## [0.3.1] - 2022-08-10
+### Changed
+- Fixed 'ppc-prop-double' snippet.
+
 ## [0.3.1] - 2022-08-08
 ### Changed
 - Added placeholders to the 'ppc-resp' snippet.
