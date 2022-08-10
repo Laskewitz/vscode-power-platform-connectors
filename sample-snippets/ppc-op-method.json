@@ -1,0 +1,15 @@
+{
+    "method": {
+        "responses": {},
+        "summary": "Summary",
+        "operationId": "OperationId",
+        "description": "Description.",
+        "consumes": [
+            "application/json"
+        ],
+        "produces": [
+            "application/json"
+        ],
+        "parameters": []
+    }
+}

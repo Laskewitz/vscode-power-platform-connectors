@@ -1,0 +1,16 @@
+{
+    "x-ms-connector-metadata": [
+        {
+            "propertyName": "Website",
+            "propertyValue": "https://your-website-here.com/"
+        },
+        {
+            "propertyName": "Privacy policy",
+            "propertyValue": "https://privacy-policy-link-here.com/"
+        },
+        {
+            "propertyName": "Categories",
+            "propertyValue": "Category1;Category2"
+        }
+    ]
+}

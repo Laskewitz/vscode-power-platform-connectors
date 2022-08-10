@@ -2,7 +2,7 @@
     "responseCode": {
         "description": "Description.",
         "schema": {
-            "$ref": "#/definitions/responseDefinition"
+            "$ref": "#/responses/responseDefinition"
         }
     }
 }
