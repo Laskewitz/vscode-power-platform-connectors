@@ -38,7 +38,7 @@
             "\t\"type\": \"boolean\"",
             "}"
         ]
-    }, 
+    },
     "Create Property (Double)": {
         "scope": "json",
         "prefix": "ppc-prop-double",
@@ -47,7 +47,8 @@
             "\"${1:propertyName}\": {",
             "\t\"x-ms-summary\": \"${2:Summary}\",",
             "\t\"description\": \"${3:Description.}\",",
-            "\t\"type\": \"double\"",
+            "\t\"type\": \"number\"",
+            "\t\"format\": \"double\"",
             "}"
         ]
     },
