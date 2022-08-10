@@ -142,20 +142,20 @@
         "prefix": "ppc-conn-metadata",
         "description": "This snippet contains a 'x-ms-connector-metadata' object which you need to certify your connector.",        
         "body": [
-            "\t\"x-ms-connector-metadata\": [",
-            "\t\t{",
-            "\t\t\t\"propertyName\": \"Website\",",
-            "\t\t\t\"propertyValue\": \"${1:https://your-website-here.com/}\"",
-            "\t\t},",
-            "\t\t{",
-            "\t\t\t\"propertyName\": \"Privacy policy\",",
-            "\t\t\t\"propertyValue\": \"${2:https://privacy-policy-link-here.com/}\"",
-            "\t\t},",
-            "\t\t{",
-            "\t\t\t\"propertyName\": \"Categories\",",
-            "\t\t\t\"propertyValue\": \"${3:Category1;Category2}\"",
-            "\t\t}",
-            "\t]"
+            "\"x-ms-connector-metadata\": [",
+            "\t{",
+            "\t\t\"propertyName\": \"Website\",",
+            "\t\t\"propertyValue\": \"${1:https://your-website-here.com/}\"",
+            "\t},",
+            "\t{",
+            "\t\t\"propertyName\": \"Privacy policy\",",
+            "\t\t\"propertyValue\": \"${2:https://privacy-policy-link-here.com/}\"",
+            "\t},",
+            "\t{",
+            "\t\t\"propertyName\": \"Categories\",",
+            "\t\t\"propertyValue\": \"${3:Category1;Category2}\"",
+            "\t}",
+            "]"
         ]
     },
     "Create an operation": {
@@ -163,33 +163,12 @@
         "prefix": "ppc-op",
         "description": "This snippet contains an operation, which you can use to define a new operation.",        
         "body": [
-            "\t\"/${1:relative/url/to/endpoint/}\": {",
-            "\t\t\"${2:method}\": {",
-            "\t\t\t\"responses\": {},",
-            "\t\t\t\"summary\": \"${3:Summary}\",",
-            "\t\t\t\"operationId\": \"${4:OperationId}\",",
-            "\t\t\t\"description\": \"${5:Description.}\",",
-            "\t\t\t\"consumes\": [",
-            "\t\t\t\t\"application/json\"",
-            "\t\t\t],",
-            "\t\t\t\"produces\": [",
-            "\t\t\t\t\"application/json\"",
-            "\t\t\t],",
-            "\t\t\t\"parameters\": []",
-            "\t\t}",
-            "\t}"
-        ]
-    },
-    "Create a method": {
-        "scope": "json",
-        "prefix": "ppc-op-method",
-        "description": "This snippet contains a method object, which you can use to define an extra method inside an operation.",
-        "body": [
-            "\t\"${1:method}\": {",
+            "\"/${1:relative/url/to/endpoint/}\": {",
+            "\t\"${2:method}\": {",
             "\t\t\"responses\": {},",
-            "\t\t\"summary\": \"${2:Summary}\",",
-            "\t\t\"operationId\": \"${3:OperationId}\",",
-            "\t\t\"description\": \"${4:Description.}\",",
+            "\t\t\"summary\": \"${3:Summary}\",",
+            "\t\t\"operationId\": \"${4:OperationId}\",",
+            "\t\t\"description\": \"${5:Description.}\",",
             "\t\t\"consumes\": [",
             "\t\t\t\"application/json\"",
             "\t\t],",
@@ -197,7 +176,28 @@
             "\t\t\t\"application/json\"",
             "\t\t],",
             "\t\t\"parameters\": []",
-            "\t}"
+            "\t}",
+            "}"
+        ]
+    },
+    "Create a method": {
+        "scope": "json",
+        "prefix": "ppc-op-method",
+        "description": "This snippet contains a method object, which you can use to define an extra method inside an operation.",
+        "body": [
+            "\"${1:method}\": {",
+            "\t\"responses\": {},",
+            "\t\"summary\": \"${2:Summary}\",",
+            "\t\"operationId\": \"${3:OperationId}\",",
+            "\t\"description\": \"${4:Description.}\",",
+            "\t\"consumes\": [",
+            "\t\t\"application/json\"",
+            "\t],",
+            "\t\"produces\": [",
+            "\t\t\"application/json\"",
+            "\t],",
+            "\t\"parameters\": []",
+            "}"
         ]
     }
 }
