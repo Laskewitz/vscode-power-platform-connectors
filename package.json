@@ -2,7 +2,7 @@
   "name": "power-platform-connectors",
   "displayName": "Power Platform Connectors",
   "description": "This extension will help you develop Power Platform Connectors. It will provide snippets to help you develop custom connectors more easily. The snippets will contain all the properties that you need and the samples in the snippets will adhere to best practices.",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "publisher": "DanielLaskewitz",
   "icon": "assets/power-platform-connectors.png",
   "license": "MIT",

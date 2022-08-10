@@ -7,7 +7,7 @@ All notable changes to the "Power Platform Connectors" VS Code extension will be
 - Added sample snippets in the [GitHub repo](https://github.com/laskewitz/vscode-power-platform-connectors/) in the directory 'sample-snippets'.
 - Added the 'ppc-op' snippet to make it easy adding a new operation.
 - Added the 'ppc-op-method' snippet to make it easy adding an extra method in an operation.
-- Added the 'ppc-conn-metadata' snipper to make it easy to add the 'x-ms-connector-metadata' object to your connector, in case you want to certify your connector.
+- Added the 'ppc-conn-metadata' snippet to make it easy to add the 'x-ms-connector-metadata' object to your connector, in case you want to certify your connector.
 
 ## Changed
 - Renamed 'ppc-prop-int' to 'ppc-prop-int32'.
