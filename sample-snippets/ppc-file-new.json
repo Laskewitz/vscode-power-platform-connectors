@@ -1,0 +1,40 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Connector Name",
+        "description": "Description.",
+        "version": "1.0",
+        "contact": {
+            "name": "John Doe",
+            "url": "https://company.com",
+            "email": "email@company.com"
+        }
+    },
+    "x-ms-connector-metadata": [
+        {
+            "propertyName": "Website",
+            "propertyValue": "https://your-website-here.com/"
+        },
+        {
+            "propertyName": "Privacy policy",
+            "propertyValue": "https://privacy-policy-link-here.com/"
+        },
+        {
+            "propertyName": "Categories",
+            "propertyValue": "Category1;Category2"
+        }
+    ],
+    "host": "url.host.com",
+    "basePath": "/",
+    "schemes": [
+        "https"
+    ],
+    "consumes": [],
+    "produces": [],
+    "paths": {},
+    "definitions": {},
+    "responses": {},
+    "securityDefinitions": {},
+    "security": [],
+    "tags": []
+}

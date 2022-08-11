@@ -2,9 +2,12 @@
 
 All notable changes to the "Power Platform Connectors" VS Code extension will be documented in this file.
 
+## [0.4.1] - 2022-08-11
+### Added
+- Added the 'ppc-file-new' snippet to make it easy to add a skeleton for a new Open API file, which you can use to start creating your connector.
+
 ## [0.4.0] - 2022-08-10
 ### Added
-- Added sample snippets in the [GitHub repo](https://github.com/laskewitz/vscode-power-platform-connectors/) in the directory 'sample-snippets'.
 - Added the 'ppc-op' snippet to make it easy adding a new operation.
 - Added the 'ppc-op-method' snippet to make it easy adding an extra method in an operation.
 - Added the 'ppc-conn-metadata' snippet to make it easy to add the 'x-ms-connector-metadata' object to your connector, in case you want to certify your connector.
@@ -12,6 +15,10 @@ All notable changes to the "Power Platform Connectors" VS Code extension will be
 ## Changed
 - Renamed 'ppc-prop-int' to 'ppc-prop-int32'.
 - Renamed 'ppc-prop-int-enum' to 'ppc-prop-int32-enum'.
+
+## [0.3.3] - 2022-08-10
+### Added
+- Added sample snippets in the [GitHub repo](https://github.com/laskewitz/vscode-power-platform-connectors/) in the directory 'sample-snippets'.
 
 ## [0.3.2] - 2022-08-10
 ### Changed

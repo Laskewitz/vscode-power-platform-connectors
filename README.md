@@ -13,6 +13,7 @@ Type part of a snippet and press `enter`, the code will then be added into the f
 | Snippet | Purpose |
 |---------|---------|
 | `ppc-def` | This snippet contains a definition object with the first property included. |
+| `ppc-file-new` | This snippet contains a skeleton for a new Open API file, which you can use to start creating your connector. |
 | `ppc-op` | This snippet contains an operation, which you can use to define a new operation. |
 | `ppc-op-method` | This snippet contains a method object, which you can use to define an extra method inside an operation. |
 | `ppc-prop-bool` | This snippet contains a property of the type 'boolean' with the 'x-ms-summary', 'description' and 'type' properties included. |
