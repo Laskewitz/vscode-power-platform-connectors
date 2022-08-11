@@ -1,0 +1,20 @@
+name: 🚀 Feature request
+description: Request a feature
+title: "[Feature request]: "
+labels: ["feature request", "triage"]
+assignees:
+  - laskewitz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Waht feature would you like to see?
+      description: Also tell us, how would this help you?
+      placeholder: Tell us what feature you want to request!
+      value: "I want to request a new feature!"
+    validations:
+      required: true
